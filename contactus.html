@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Document</title>
+  <link rel="stylesheet" href="contact.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+</head>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+  integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+<body>
+
+  <div class="header lg">
+
+    <nav class="navbar navbar-expand-lg bg-body-light mt-2">
+      <div class="container-fluid sm">
+        <a class="navbar-brand" href="home.html"><img class="logo ms-4" alt="#" src="./images/logo.png.jpg"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse  ms-1" id="navbarNav">
+          <ul class="navbar-nav me-auto mb-lg-0 sm">
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle active" href="#" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                <b>Beauty Haven</b>
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="shop.html">Face</a></li>
+                <li><a class="dropdown-item" href="lips.html">Lips</a></li>
+                <li><a class="dropdown-item" href="eyes.html">Eyes</a></li>
+                <li>
+                  <hr class="dropdown-divider">
+                </li>
+                <li><a class="dropdown-item" href="cart.html">Buy Now</a></li>
+              </ul>
+            </li>
+          </ul>
+          <form class="search d-flex" role="search">
+            <input class="form-control me-3" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Search</button>
+          </form>
+          <ul class="navbar-nav me-auto mx-3">
+
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="home.html"><b>Home</b></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="shop.html"><b>Shop</b></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="about.html"><b>About</b></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="contactus.html"><b>Contactus</b></a>
+            </li>
+        </div>
+        </ul>
+    </nav>
+
+    <h1 class="heading4 text-center fs-1  text-light lg-6"><b>CONTACT US</b></h1>
+    <form>
+      <div class="containerr1  justify-content">
+        <div class="row">
+          <div class="col-md-6 offset-md-3">
+            <h2 class="heading2 text-center mt-3 lg-6"><b>Get in Touch</b></h2>
+
+            <div class="form-group fw-bolder  justify-content mt-5  ">
+              <label for="name" class="text-start ms-2"><b>Name</b></label>
+              <input type="text" class="form-control  btn-light btn-outline-dark ms-1" id="form-control"
+                placeholder="name">
+            </div>
+            <div class="form-group fw-bolder mt-3">
+              <label for="email" class="text-start ms-2"><b>Email</b></label>
+              <input type="email" class="form-control btn-light btn-outline-dark ms-1" id="form-control"
+                placeholder="@email.com">
+            </div>
+            <div class="form-group fw-bolder mt-3">
+              <label for="password" class="text-start ms-2"><b>Password</b></label>
+              <input type="password" class="form-control btn-light btn-outline-dark ms-1" id="form-control"
+                placeholder="password">
+            </div>
+            <div class="form-group fw-bolder mt-3">
+              <label for="city" class="text-start ms-2"><b>City</b></label>
+              <input type="city" class="form-control btn-light btn-outline-dark ms-1" id="form-control"
+                placeholder="name">
+            </div>
+            <div class="form-group  fw-bolder mt-3 ">
+              <label for="address" class="text-start ms-2"><b>Address</b></label>
+              <input type="address" class="form-control btn-light btn-outline-dark ms-1" id="form-control"
+                placeholder="address">
+            </div>
+            <div class="form-group  fw-bolder mt-3 ">
+              <label for="Comment" class="text-start ms-2"><b>Comment</b></label>
+
+              <textarea id="text" class="form-control btn-light btn-outline-dark ms-1"></textarea>
+            </div>
+
+            <div class="form-check fw-bolder mt-3 ">
+
+              <input type="checkbox" class="form-check-input fw-bolder btn-light btn-outline-dark ms-1 "
+                id="exampleCheck1">
+              <label class="form-check-label ms-2" for="exampleCheck1">Check me out</label>
+            </div>
+            <div>
+              <button type="submit" class="btn  btn-light btn-outline-dark mt-3 fw-bolder ms-2">Submit</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </form>
+
+    <br>
+    <br>
+    <h1 class="h2 text-center col-md-12 fw-bolder fs-100"><b>FAQS</b></h1>
+    <br>
+    <br>
+    <div class="containerr2">
+      <div class="row">
+        <div class="col-md-6 offset-md-3">
+          <div class="accordion" id="accordionExample">
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingOne">
+                <button class="accordion-button fw-bolder text-dark  bg-secondary  " type="button"
+                  data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true"
+                  aria-controls="collapseOne">
+                  How Can I Pay My Order?
+                </button>
+              </h2>
+              <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+                data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  You can pay through cash on delivery (COD), Visa/Mastercard/UnionPay credit/debit cards and
+                  EasyPaisa.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingTwo">
+                <button class="accordion-button collapsed fw-bolder text-dark  bg-secondary " type="button"
+                  data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false"
+                  aria-controls="collapseTwo">
+                  What Are Over Delivery Charges?
+                </button>
+              </h2>
+              <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  Our delivery charges are Rs. 185 per order nationwide.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingThree ">
+                <button class="accordion-button collapsed fw-bolder text-dark  bg-secondary " type="button"
+                  data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false"
+                  aria-controls="collapsethree">
+                  How Can I Replace My Order?
+                </button>
+              </h2>
+              <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingthree"
+                data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  You can request an exchange by calling our customer service line at 0309-3-HIGHFY (444439). A rider
+                  will collect your package within seven business days after you request a return. After inspection,
+                  if
+                  the product is unused, based on your request, you will receive the item in exchange within three to
+                  four business days. Please note that we will only replace sizes/variants of the same product.
+                </div>
+                <div class="accordion-item  ">
+                  <h2 class="accordion-header " id="headingfour ">
+                    <button class="accordion-button collapsed fw-bolder text-dark  bg-secondary " type="button"
+                      data-bs-toggle="collapse" data-bs-target="#collapsefour" aria-expanded="false"
+                      aria-controls="collapsefour">
+                      Do I Have To Pay For Shipping Charges When Replace A Product
+                    </button>
+                  </h2>
+                  <div id="collapsefour" class="accordion-collapse collapse" aria-labelledby="headingfour"
+                    data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                      If you think you ordered the wrong size/kind/variant of a product and would like a replacement,
+                      you would be requested to pay the shipping charges.
+                    </div>
+
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <br>
+          <div class="section3 mt-5  ">
+            <div class="row ">
+              <div class="col-md-5 offset-md-1 me-3 mt-1">
+                <div class="imagelast">
+                  <div class="d-flex position-relative ">
+                    <img src="./images/delivery-van.jpg" width="70px" height="60px" class="flex-shrink-0 me-4 pe-2"
+                      alt="van">
+                    <div>
+                      <h5 class="mt-1 me-2 fw-bolder fs-50">Nationwide Shipping</h5>
+                      <p class="p1 fw-bold">We ship all over pakistan</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4 mt-2">
+                <div class="imagelast">
+                  <div class="d-flex position-relative">
+                    <img src="./images/conversation.jpg" width="70px" height="60px" class="flex-shrink-0  me-3"
+                      alt="second image">
+                    <div>
+                      <h5 class="mt-1 ms-2 justify-content fw-bolder fs-50">24/7 Coustomer Suporte</h5>
+                      <p class="p2 ms-2">We are here to answer all your queries</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-5 offset-md-1 mt-2 ">
+                <div class="imagelast">
+                  <div class="d-flex position-relative ">
+                    <img src="./images/global.jpg" width="50px" height="50px" class="flex-shrink-0 me-3"
+                      alt="third image">
+                    <div>
+                      <h5 class="mt-1 ms-4 justify-content fw-bolder">Best Global Brand</h5>
+                      <p class="global justify-content ms-4 fw-bold">We provide the best brands available globally</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-5 mt-2">
+                <div class="imagelast">
+                  <div class="d-flex position-relative">
+                    <img src="./images/hand.png.jpg" width="60px" height="50px" class="flex-shrink-0 me-2"
+                      alt="second image">
+                    <div>
+                      <h5 class="mt-1 ms-4 fw-bolder ">Best Rate In Town</h5>
+                      <p class="p4 ms-4 fw-bold">We promise to provide the best prices</p>
+                    </div>
+                  </div>
+                </div>
+
+                <form>
+                  <div class="form-grouplast fw-bolder mt-3 justify-content align-item-center px-1 me-1">
+                    <label for="email" class="text-start  fs-150 fw-bolder">Subscribe to our emails</label>
+                    <input type="email" class="form-control btn-light btn-outline-dark  mt-1  py-3 " id="form-control"
+                      placeholder="@email.com">
+                  </div>
+                </form>
+
+              </div>
+              <footer class="footer mt-3 py-3 lg sm">
+                <div class="containerr3 d-flex">
+                  <div class="row">
+                    <div class="col-md-2 me-1 g-3">
+                      <ul>
+                        <li><a href="home.html"><img src="./images/logo.png.jpg" class="ig  me-3" alt="#"
+                              width="100%"></a></li>
+                      </ul>
+                    </div>
+                    <div class="col-md-2 g-3" widht="605.75" height="86.06">
+                      <ul>
+                        <h1>Branch</h1>
+                        <li><a href="#">About us</a></li>
+                        <li><a href="#">Our Services</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Affiliate Program</a></li>
+                      </ul>
+                    </div>
+                    <div class="col-md-2 mt-3 ms-1 me-1">
+                      <ul>
+                        <h1>GetHelp</h1>
+                        <li><a href="#">FAQ</a></li>
+                        <li><a href="#">Shipping</a></li>
+                        <li><a href="#">Returns</a></li>
+                        <li><a href="#">Order Status</a></li>
+                        <li><a href="#">Payment Options</a></li>
+                      </ul>
+                    </div>
+                    <div class="col-md-2 mt-3 ms-1 me-1">
+                      <ul>
+                        <h1>Online Shop</h1>
+                        <li><a href="#">Foundation</a></li>
+                        <li><a href="#">Fragrance</a></li>
+                        <li><a href="#">Lipstick </a></li>
+                        <li><a href="#">Blush</a></li>
+                      </ul>
+                    </div>
+                    <div class="col-md-2 mt-3 ms-1 me-1">
+                      <ul>
+                        <h1>Follow Us</h1>
+                        <li><a href="https://www.facebook.com/"><i class="fa-brands fa-facebook ms-3"></i></a></li>
+                        <li><a href="https://www.twitter.com/"><i class="fa-brands fa-square-twitter ms-3"></i></a>
+                        </li>
+                        <li><a class="font" href="https://www.linkedin.com"><i
+                              class="fa-brands fa-linkedin ms-3"></i></a></li>
+                        <li><a href="https://www.instagram.com/"><i class="fa-brands fa-square-instagram ms-3"></i></a>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+            </div>
+            </footer>
+</body>
+
+</html>

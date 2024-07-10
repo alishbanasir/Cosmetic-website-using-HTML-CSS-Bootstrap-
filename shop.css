@@ -1,0 +1,170 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+.header{
+  background-color: rgb(255, 255, 255);
+}
+
+.images {
+  width: 100%;
+  height: 100px;
+}
+.pic{
+  background-color: black;
+  color: #fff;
+}
+
+.main {
+  width: 100%;
+  height: 500px;
+}
+
+.logo {
+  height: 60px;
+  width: 60px;
+  border-radius: 50px 50px 50px 50px;
+}
+ul {
+  list-style: none;
+}
+.nav-item{
+  font-size: 20px;
+  font-weight: 600;
+ 
+
+}
+.nav-item a{
+  list-style-type: none;
+  text-decoration: none;
+  color: rgb(8, 8, 8);
+     margin-left: 2px;
+     margin-right: 2px;
+     
+}
+
+.nav-items a i {
+   font-size: 25px; 
+  margin-bottom: auto;
+  color: rgb(8, 8, 8)
+} 
+
+.cont{
+    background-color: #ffffff;
+}
+.log{
+  display: flex;
+  align-items: center;
+ }
+ .log{
+  background-color: black;
+  }
+ 
+  .heading4{
+    background-color: black;
+    font-weight: 600;
+  }
+ 
+
+
+.text-center:hover{
+    color: rgb(75, 74, 74);
+}
+.text-center{
+    
+  font-size: 30px;
+  font-weight: 600;
+  color: #000000;
+  }
+.text:hover{
+    color: rgb(68, 67, 67);
+}
+
+.home{
+    display:flex;
+    flex-wrap: wrap;
+    width: 90%;
+    justify-content: space-evenly;
+    align-items: flex-start;
+ 
+}
+.product{
+    width: 210px;
+    box-sizing: border-box;
+    margin-top: 1%;
+    margin-left: 8px;
+    margin-right: 2px;
+    cursor : pointer;
+     transition : 1s; 
+    
+}
+img{
+     width: 120%;
+       height: 280px;
+      align-items: center;
+      margin: 0 auto;
+      display: block;
+      cursor: pointer;
+}
+.img6{
+    
+    width: 140%;
+       height: 280px;
+}
+img:hover{
+    transform: scale(1.0) ;
+    transition: .1s;
+}
+.img9{
+  align-items: center;
+    width: 135%;
+    height: 280px; 
+  
+}
+.heading{
+    font-size: 17px;
+    font-weight: 549;
+}
+.content{
+    font-size: 80px; 
+      color: rgb(0, 0, 0);
+   
+}
+ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    margin-left: 0%;
+    margin-right: 10%;
+  }
+  li{
+    padding: 6px;
+  }
+.fa{
+    color: #dddcdc;
+    cursor: pointer;
+  }
+  .checked{
+    color: rgb(184, 73, 8);
+    cursor: pointer;
+  }
+  .fa:hover{
+    transform: scale(1.5) ;
+    transition: .6s;
+  }
+button{
+   text-align: center;
+    font-size:30px;
+    color: rgb(19, 18, 19);
+    width: 60%;
+    cursor:pointer;
+    margin-top:5px;
+   }
+   button:hover{
+    background-color: black;
+    color: #ffffff;
+   }
+
+
